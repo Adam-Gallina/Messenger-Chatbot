@@ -44,10 +44,8 @@ def CloseBot(driver, args, chathead):
     driver.SendText('Goodbye')
     return SUCCESS_MSG
 
-username = "adamschatbot@gmail.com"
-password = "CH@TB0T01"
-#username = "adamg461@gmail.com"
-#password = "sirAulen16"
+username = "your email here"
+password = "your password here"
 
 #Create a custom Driver class and log it in to Messenger
 d = Driver(username, password)
